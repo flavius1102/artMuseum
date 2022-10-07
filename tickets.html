@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Tickets</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="navbar-desktop">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <span>THE</span><span>ART</span><span>MUSEUM</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Exhibitions & Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Artists & Artworks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active-link" href="/tickets.html">Plan Your Visit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Become a Member</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar-mobile">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><span>THE</span><span>ART</span><span>MUSEUM</span></a>
+            <h1 class="text-center">Plan Your Visit</h1>
+            <div class="text-end">
+                <a class="navbar-toggler-icon" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">
+                        <img src="./img/Ellipse.png" alt="search icon">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="search-input">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">
+                        <img src="./img/Rectangle-3.png" alt="Exhibitions & Events">
+                        Exhibitions & Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="./img/Ellipse-13.png" alt="Artists & ArtWorks">
+                        Artists & ArtWorks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">
+                        <img src="./img/Collections.png" alt="Collections">
+                        Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tickets.html">
+                        <img src="./img/Subtract.png" alt="Plan Your Visit">
+                        Plan Your Visit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="./img/Rectangle-24.png" alt="Become a Member">
+                        Become a Member</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="./img/Shop.png" alt="Shop">
+                        Shop</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Skip the Line.</h2>
+                <h2>Purchase Tickets.</h2>
+                <h4>All exhibitions, audio tours, and films<span>included in the price of admission</span></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 mt-3">
+                <h3 class="secondary">Today</h3>
+            </div>
+            <div class="col-4 mt-3 text-center">
+                <h3 class="active">Tomorrow</h3>
+            </div>
+            <div class="col-4 mt-3 text-end">
+                <h3 class="secondary">Other</h3>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-4 mx-auto">
+                <p class="text-center m-0 date">March 22, 2016</p>
+                <p class="text-center m-0 date">Open 10:30am-5:30pm</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7 col-lg-9">
+                <h3>Adults</h3>
+                <p class="secondary"></p>
+            </div>
+            <div class="col-5 col-lg-3 text-end">
+                <div class="input-group mb-3">
+                    <button class="btn" type="button">-</button>
+                    <input type="text" class="form-control text-center" placeholder="" id="adults" value="2">
+                    <button class="btn" type="button">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7 col-lg-9">
+                <h3>Seniors</h3>
+                <p class="secondary info">65+ with ID</p>
+            </div>
+            <div class="col-5 col-lg-3 text-end">
+                <div class="input-group mb-3">
+                    <button class="btn" type="button">-</button>
+                    <input type="text" class="form-control text-center" placeholder="0" id="seniors">
+                    <button class="btn" type="button">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7 col-lg-9">
+                <h3>Students</h3>
+                <p class="secondary info">with ID</p>
+            </div>
+            <div class="col-5 col-lg-3 text-end">
+                <div class="input-group mb-3">
+                    <button class="btn" type="button">-</button>
+                    <input type="text" class="form-control text-center" placeholder="0" id="students">
+                    <button class="btn" type="button">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="total"></div>
+        <div class="row">
+            <div class="col-7 col-lg-9">
+                <h3>Total</h3>
+            </div>
+            <div class="col-5 col-lg-3 text-center">
+                <h3>$16</h3>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-12 text-center">
+               <button id="payment">Continue to Payment</button>
+           </div>
+        </div>
+    </main>
+
+
+    <script src="js/jQuery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

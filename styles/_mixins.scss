@@ -1,0 +1,22 @@
+@mixin border-radius($size: 5px) {
+  border-radius: $size;
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
+}
+
+@mixin margin ($margin: 10px) {
+  margin: $margin;
+}
+
+@mixin reset-margin($margin: 0) {
+  margin: $margin;
+}
+
+@mixin reset-padding($padding: 0) {
+  padding: $padding;
+}
+
+@mixin rotate($deg: 90deg) {
+  transform: rotate($deg);
+}
+

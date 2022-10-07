@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Collections</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="navbar-desktop">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <span>THE</span><span>ART</span><span>MUSEUM</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Exhibitions & Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Artists & Artworks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active-link" href="/index.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/tickets.html">Plan Your Visit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Become a Member</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar-mobile">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><span>THE</span><span>ART</span><span>MUSEUM</span></a>
+            <h1 class="text-center">Collections</h1>
+            <div class="text-end">
+                <a class="navbar-toggler-icon" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">
+                        <img src="./img/Ellipse.png" alt="search icon">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="search-input">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">
+                        <img src="./img/Rectangle-3.png" alt="Exhibitions & Events">
+                        Exhibitions & Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="./img/Ellipse-13.png" alt="Artists & ArtWorks">
+                        Artists & ArtWorks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">
+                        <img src="./img/Collections.png" alt="Collections">
+                        Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tickets.html">
+                        <img src="./img/Subtract.png" alt="Plan Your Visit">
+                        Plan Your Visit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="./img/Rectangle-24.png" alt="Become a Member">
+                        Become a Member</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="./img/Shop.png" alt="Shop">
+                        Shop</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="container text-center">
+        <div class="row">
+            <div class="col-12">
+                <div class="input-group" id="explore-group">
+                    <input type="search" class="form-control" placeholder="Explore the Collection" id="explore" aria-label="Explore the Collection">
+                    <button class="btn-search" type="button">
+                        <img src="./img/Ellipse-orange.png" alt="search" id="ellipse">
+                    </button>
+                </div>
+                <p class="art">Advanced Search</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <img src="./img/decorative.png" alt="Decorative arts & crafts" class="artImg">
+                    <p class="art">DECORATIVE<span>ARTS & CRAFTS</span></p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div>
+                    <img src="./img/impressionism.png" alt="American impressionism" class="artImg">
+                    <p class="art">AMERICAN<span>IMPRESSIONISM</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <img src="./img/de-stijl.png" alt="De Stijl" class="artImg">
+                    <p class="art">DE STIJL</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div>
+                    <img src="./img/cubism.png" alt="Cubism" class="artImg">
+                    <p class="art">CUBISM</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <img src="./img/american.png" alt="American" class="artImg">
+                    <p class="art">AMERICAN</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div>
+                    <img src="./img/greek.png" alt="Greek Antiquities" class="artImg">
+                    <p class="art">GREEK ANTIQUITIES</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/jQuery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
